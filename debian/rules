@@ -1,0 +1,13 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+
+# Go parameters
+PACKAGE=$(shell cat ../dpkg.json | jq -r .PACKAGE)
+
+all: build
+
+build:
+	GO111MODULE=on go build -o bin/$(PACKAGE) -v cmd/$(PACKAGE)/main.go

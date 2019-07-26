@@ -1,0 +1,19 @@
+Source: route53-ddns
+Section: util
+Priority: optional
+Maintainer: Jamie Curnow <jc@jc21.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 4.3.0.1
+Homepage: https://github.com/jc21/route53-ddns
+Vcs-Git: https://github.com/jc21/route53-ddns.git
+Vcs-Browser: https://github.com/jc21/route53-ddns
+
+Package: route53-ddns
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Pre-Depends: ${misc:Pre-Depends}
+Description: Sick of using Dynamic DNS services that are costly or annoying?
+  Already use Route53 for your domain DNS?
+  Do you have a dynamically assigned IP address?
+  This is the command for you.
