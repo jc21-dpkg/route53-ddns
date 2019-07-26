@@ -1,3 +1,10 @@
+route53-ddns (1.0.3) unstable; urgency=medium
+
+  * See: https://github.com/jc21/route53-ddns/releases/tag/1.0.3
+
+ -- Jamie Curnow <jc@jc21.com>  Fri, 26 May 2019 16:00:00 +1000
+
+
 route53-ddns (1.0.2) unstable; urgency=medium
 
   * See: https://github.com/jc21/route53-ddns/releases/tag/1.0.2
